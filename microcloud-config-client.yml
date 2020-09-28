@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: microconfig-test-client2
+      name: microconfig-test-client4
 
 eureka:
  client:
@@ -18,8 +18,8 @@ eureka:
   register-with-eureka: false
 
 info:
-  app.name: microcloud-config-client-dev2
-  company.name: enjoy2
+  app.name: microcloud-config-client-dev
+  company.name: enjoy1
 ---
 server:
   port: 8102
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: microconfig-test-client2
+      name: microconfig-test-client4
 
 eureka:
  client:
@@ -36,5 +36,6 @@ eureka:
   register-with-eureka: false
   
 info:
-  app.name: microcloud-config-client-beta2
+  app.name: microcloud-config-client-dev
   company.name: enjoy
+
